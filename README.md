@@ -10,7 +10,7 @@ The main Browser class inherits from QMainWindow to create the application windo
 
 When a new tab is opened, a QWebEngineView is created to display the web page content, and a BrowserWebEnginePage is set as its page. This allows hooking into events like link hovering and context menus. New tabs open to a default URL like Google.
 
-# I have attached a fully functional version of the script WebBrowser.py  that can be delopyed to any windows system for testing purposes via any IDE that supports python (to feel the power of python and the PyQt5 web engine). The script can be improved and does need some adjustments and additional features to be used for production.
+# I have attached a fully functional version of the script WebBrowser.py  that can be delopyed to any windows system for testing purposes via any IDE that supports Python (feel the power of python and the PyQt5 web engine). The script can be improved and does need some adjustments and additional features to be used for production.
 # Remember to pip install necessary or missing import libarires before testing the script. Happy coding!!!!
 
 sys and os modules are imported for system-related functionalities.
